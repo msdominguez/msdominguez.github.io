@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+
+/* shared & universal styles */
+
+:root {
+    --msd-black: rgb(0, 0, 0);
+    --msd-white: rgb(255, 255, 255);
+    --msd-gray-1: rgb(71, 71, 71);
+    --msd-gray-2: rgb(94, 94, 94);
+    --msd-gray-2-20: rgb(94, 94, 94, 0.2);
+    --msd-gray-3: rgb(144, 144, 144);
+    --msd-gray-3-20: rgb(144, 144, 144, 0.2);
+    --msd-gray-3-50: rgb(144, 144, 144, 0.5);
+    --msd-gray-4: rgb(196, 196, 196);
+    --msd-pink-1: rgb(167, 129, 129);
+    --msd-pink-2: rgb(242, 188, 189);
+    --msd-pink-2-30: rgb(242, 188, 189, 0.3);
+    --msd-pink-2-65: rgb(242, 188, 189, 0.65);
+    --msd-pink-3: rgba(248, 221, 221);
+    --msd-pink-3-30: rgba(248, 221, 221, 0.3);
+    --msd-pink-3-15: rgba(248, 221, 221, 0.15);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-family: Noto Serif JP;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: Karla;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Karla;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: Noto Serif JP;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+h5 {
+    font-family: Karla;
+    font-size: 20px;
+}
+
+h6 {
+    font-family: Karla;
+    font-size: 17px;
+}
+
+p {
+    font-family: Karla;
+    font-size: 17px;
+}
+
+body {
+    background: var(--msd-pink-1);
+    min-height: 100vh;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--msd-pink-2);
+    margin-top: 2rem;
+    font-family: Karla;
+    font-size: 17px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 5rem;
+    border-radius: 5rem;
+    border: 2px solid var(--msd-pink-2);
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 1rem .5rem;
+}
